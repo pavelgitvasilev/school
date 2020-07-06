@@ -1,0 +1,54 @@
+// #scroll_top
+//   &
+//     position: fixed
+//     bottom: 60px
+//     right: 15px
+//     z-index: 10
+//     width: 32px
+//     height: 32px
+//     background: url('../img/arrow.svg') 50% 50% no-repeat
+//     border-radius: 50%
+//     opacity: 0.5
+//   &:hover
+//     opacity: 1
+.button
+  &
+    outline: none
+    padding: 12px 30px 14px 33px
+    border: none
+    border-radius: 50px
+    font-size: 1.14rem
+    color: white
+    background: $red
+    letter-spacing: 0.2px
+  &:hover
+    outline: none
+    cursor: pointer
+.form
+  &__label
+    font-size: 1.28rem
+    color: rgba($dark, 0.5)
+    text-transform: uppercase
+.label
+  &
+
+  &--light
+    color: rgba(white, 0.5)
+    text-transform: uppercase
+.input
+  &
+    outline: none
+    background-color: transparent
+    border: none
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3)
+    font-size: 1.28rem
+    color: $dark
+    padding: 0.4rem 0
+  &--light
+    &::placeholder
+      color: $dark
+label
+  &.invalid
+    position: absolute
+    color: green
+    margin-left: 12rem
